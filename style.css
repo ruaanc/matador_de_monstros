@@ -12,3 +12,34 @@
 #game {
     display: table;
 }
+.botao {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(41, 41, 97);
+    border-radius: 10px;
+}
+.botao_ataque {
+    width: 75px;
+    height: 40px;
+    background-color: red;
+    border-radius: 10px;
+}
+.botao_especial {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(97, 97, 8);
+    border-radius: 10px;
+}
+
+.botao_curar {
+    width: 75px;
+    height: 40px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.botao_desistir {
+    width: 75px;
+    height: 40px;
+    border-radius: 10px;
+}
