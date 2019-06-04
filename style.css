@@ -1,0 +1,14 @@
+.barra {
+	width: 200px;
+	height: 20px;
+    border: 1px solid black;
+}
+
+.progresso {
+	background-color: green;
+    height: 100%;
+}
+
+#game {
+    display: table;
+}
