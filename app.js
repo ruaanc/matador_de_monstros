@@ -5,5 +5,14 @@ new Vue({
         vida_monstro: 100,
         vida_jogador: 100,
         mudar: true
-	}
+        },
+        computed: {
+
+        },
+        methods: {
+
+        },
+        watch: {
+                
+        }
 });
