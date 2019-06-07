@@ -14,7 +14,22 @@
 <div id="matador">
 
     <body>
-       <div class="panel scores">1</div>
+       <div class="panel scores">
+            <div class="score">
+                <h1>Jogador</h1>
+                <div class="life-bar">
+                    <div class="life" :class="{danger: vida_jogador < 20}" :style="{width: vida_jogador + '%'}"></div>
+                </div>
+                <div>{{ vida_jogador }}%</div>
+            </div>
+            <div class="score">
+                <h1>Monstro</h1>
+                <div class="life-bar">
+                    <div class="life" :class="{danger: vida_monstro < 20}" :style="{width: vida_monstro + '%'}"></div>
+                </div>
+                <div>{{ vida_monstro }}%</div>
+            </div>77
+        </div>
        <div class="panel resultados">2</div>
        <div class="panel buttons">3</div>
        <div class="panel logs">4</div>
