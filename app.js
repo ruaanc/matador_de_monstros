@@ -1,14 +1,13 @@
 new Vue({
 	el: '#matador',
 	data: {
-        nome: "Ruan",
+        runnig: false,
         vida_monstro: 100,
-        vida_jogador: 100,
-        mudar: true
+        vida_jogador: 100
         },
         computed: {
               hasResult() {
-                      return this.vida_jogador == 0 || this.vida_monstro == 0
+                return this.vida_jogador == 0 || this.vida_monstro == 0
               }  
         },
         methods: {
