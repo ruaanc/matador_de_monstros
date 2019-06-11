@@ -25,6 +25,14 @@ new Vue({
                         hurte = this.getRandom(min + plus, max + plus)
                         this[atr] = Math.max(this[atr] - hurte, 0)
                 },
+                healAndHurt() {
+                        this.heal(10, 15)
+                        this.hurt('vida_jogador',7, 12, false)
+                },
+                heal(min, max) {
+                        const heal = this.getRandom(min, max)
+                        this.vida_jogador = Math.min(this.vida_jogador + heal, 100)
+                },
                 getRandom(min, max) {
                         const value = Math.random() * (max - min) + min
                         return Math.round(value)
