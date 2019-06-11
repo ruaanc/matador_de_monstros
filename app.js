@@ -7,7 +7,9 @@ new Vue({
         mudar: true
         },
         computed: {
-
+              hasResult() {
+                      return this.vida_jogador == 0 || this.vida_monstro == 0
+              }  
         },
         methods: {
 
